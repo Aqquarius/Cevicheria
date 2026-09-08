@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Logo Test</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #b3e5fc, #e1f5fe);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .logo-container {
+      width: 300px;
+      height: 300px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-container">
+    <!-- Initial SVG Draft -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+      <!-- Fish Body -->
+      <path d="M 25,115 
+               C 15,95 28,75 42,75 
+               C 42,75 43,90 48,102 
+               C 65,115 95,128 120,122
+               C 140,118 152,105 160,95
+               C 165,89 172,85 178,92
+               C 183,98 178,105 170,110
+               C 175,113 178,118 172,122
+               C 160,135 140,145 120,148
+               C 95,152 65,142 48,125
+               C 42,135 32,150 25,150
+               C 22,150 20,135 25,115 Z" 
+            fill="none" 
+            stroke="#1b4965" 
+            stroke-width="5" 
+            stroke-linecap="round" 
+            stroke-linejoin="round" />
+      
+      <!-- Eye -->
+      <circle cx="152" cy="110" r="7" fill="#1b4965" />
+      <circle cx="154" cy="108" r="2.5" fill="white" />
+      
+      <!-- Pectoral Fin -->
+      <path d="M 115,135 C 110,145 120,152 125,142 Z" 
+            fill="none" 
+            stroke="#1b4965" 
+            stroke-width="4" 
+            stroke-linecap="round" 
+            stroke-linejoin="round" />
+
+      <!-- Ridges / Dorsal Fin -->
+      <path d="M 70,116 C 72,110 78,110 80,116
+               M 83,117 C 85,111 91,111 93,117
+               M 96,118 C 98,112 104,112 106,118" 
+            fill="none" 
+            stroke="#1b4965" 
+            stroke-width="4" 
+            stroke-linecap="round" />
+      
+      <!-- Captain's Hat -->
+      <!-- Visor / Brim -->
+      <path d="M 125,92 C 135,88 155,90 162,98" 
+            fill="none" 
+            stroke="#1b4965" 
+            stroke-width="5" 
+            stroke-linecap="round" />
+      
+      <!-- Crown -->
+      <path d="M 130,90 
+               C 120,70 135,50 150,55 
+               C 165,58 170,75 160,94" 
+            fill="none" 
+            stroke="#1b4965" 
+            stroke-width="5" 
+            stroke-linecap="round" 
+            stroke-linejoin="round" />
+      
+      <!-- Cap Band -->
+      <path d="M 129,91 C 135,86 150,88 158,94" 
+            fill="none" 
+            stroke="#1b4965" 
+            stroke-width="3.5" />
+      
+      <!-- Cap Symbol (Bone) -->
+      <path d="M 143,72 L 147,72 
+               M 143,75 L 147,75" 
+            stroke="#1b4965" 
+            stroke-width="3" 
+            stroke-linecap="round" />
+
+      <!-- Waves -->
+      <!-- Upper Wave -->
+      <path d="M 40,165 Q 65,150 90,165 T 140,165 T 190,165" 
+            fill="none" 
+            stroke="#3a86c8" 
+            stroke-width="5" 
+            stroke-linecap="round" />
+      
+      <!-- Lower Wave -->
+      <path d="M 50,178 Q 75,163 100,178 T 150,178 T 190,178" 
+            fill="none" 
+            stroke="#62b6cb" 
+            stroke-width="4" 
+            stroke-linecap="round" />
+    </svg>
+  </div>
+</body>
+</html>

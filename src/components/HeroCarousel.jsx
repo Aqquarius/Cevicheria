@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
-import plat from '../assets/Ceviche.PNG';
+import Ceviche from '../assets/Ceviche.PNG';
 import Cuy from '../assets/Cuy.png';
-import sudado from '../assets/Sudado.PNG';
+import SSudado from '../assets/SSudado.PNG';
 
 const slidesData = [
   {
-    image: plat,
+    image: Ceviche,
     subtitle: 'Especialidad de la Casa',
     title: 'El Ceviche Peruano de Verdad',
     desc: 'Preparado al instante con la pesca del día, limón fresco y el toque tradicional de ají limo que te encanta.',
@@ -21,7 +21,7 @@ const slidesData = [
     ctaLink: '#carta'
   },
   {
-    image: sudado,
+    image: SSudado,
     subtitle: 'Fusión y Tradición',
     title: 'Sudado',
     desc: 'Delicioso pescado cocido en un sabroso caldo con tomate, cebolla, ají y especias, acompañado de camote y yuca.',

@@ -9,9 +9,9 @@ import './App.css';
 
 // Import assets
 import Ceviche from './assets/Ceviche.PNG';
-import Chicharron from './assets/Chicharron.png';
+import CChicharron from './assets/CChicharron.png';
 import Arrozmariscos from './assets/Arrozmariscos.PNG';
-import Sudado from './assets/Sudado.PNG';
+import SSudado from './assets/SSudado.PNG';
 import Fuenteceviche from './assets/Fuenteceviche.png';
 import Fuentesimple from './assets/Fuentesimple.png';
 import Triomarino from './assets/Triomarino.PNG';
@@ -29,8 +29,8 @@ import Cervezatrujillo from './assets/Cervezatrujillo.png';
 import Cervezanegra from './assets/Cervezanegra.png';
 import Cervezatrigo from './assets/Cervezatrigo.png';
 import Cervezacallao from './assets/Cervezacallao.png';
-import Limonada from './assets/Limonada.PNG';
-import Maracuya from './assets/Maracuya.PNG';
+import LLimonada from './assets/LLimonada.PNG';
+import MMaracuya from './assets/MMaracuya.PNG';
 
 
 const DISHES_DATA = [
@@ -50,7 +50,7 @@ const DISHES_DATA = [
     category: 'Segundos',
     rating: 4.8,
     description: 'Pescado sazonado y dorado acompañado de yuca frita.',
-    image: Chicharron,
+    image: CChicharron,
     spiceLevel: 1
   },
   {
@@ -80,7 +80,7 @@ const DISHES_DATA = [
     category: 'Segundos',
     rating: 4.9,
     description: 'Delicioso pescado cocido en un sabroso caldo con tomate, cebolla, ají y especias, acompañado de camote y yuca.',
-    image: Sudado,
+    image: SSudado,
     spiceLevel: 2
   },
   {
@@ -161,7 +161,7 @@ const DISHES_DATA = [
     category: 'Bebidas',
     rating: 4.9,
     description: 'Bebida helada de maracuyá con azúcar y abundante hielo.',
-    image: Maracuya,
+    image: MMaracuya,
     spiceLevel: 0
   },
   {
@@ -171,7 +171,7 @@ const DISHES_DATA = [
     category: 'Bebidas',
     rating: 4.7,
     description: 'Zumo puro de limón licuado a punto de nieve con abundante hielo y azúcar. Ácido, dulce y sumamente refrescante.',
-    image: Limonada,
+    image: LLimonada,
     spiceLevel: 0
   },
   {

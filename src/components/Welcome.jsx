@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import plat from '../assets/plat.PNG';
+import React from 'react';
+import plat from '../assets/Ceviche.PNG';
 
 export default function Welcome() {
   return (

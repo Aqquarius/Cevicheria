@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import plat from '../assets/plat.PNG';
-import Cuy from '../assets/cuy.png';
-import sudado from '../assets/sudado.PNG';
+import plat from '../assets/Ceviche.PNG';
+import Cuy from '../assets/Cuy.png';
+import sudado from '../assets/Sudado.PNG';
 
 const slidesData = [
   {
